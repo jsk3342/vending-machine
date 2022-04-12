@@ -17,6 +17,10 @@ img {
   padding: 0;
 }
 
+ul {
+  list-style: none;
+}
+
 /* layout */
 
 .title-logo {
@@ -49,10 +53,6 @@ img {
 }
 
 /* design */
-
-.item-list-ul {
-  list-style: none;
-}
 
 .item-list-detail {
   width: 94px;
@@ -120,4 +120,145 @@ img {
   line-height: 12px;
   border: none;
   margin-top: 7px;
+}
+
+/* 콜라 아래 기능 */
+
+.show-money {
+  width: 200px;
+  height: 33px;
+  border: 1px solid #bdbdbd;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.rest-money {
+  margin-top: 20px;
+  margin-bottom: 11px;
+  margin-left: 27px;
+  display: inline-block;
+  border: none;
+  background-color: #eae8fe;
+  position: relative;
+  font-weight: 500;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: right;
+  padding: 6px 27px 0px 0px;
+}
+
+.rest-money::before {
+  display: inline;
+  content: "잔액 : ";
+  position: absolute;
+  top: 6px;
+  left: 10px;
+}
+.rest-money::after {
+  display: inline;
+  content: " 원";
+  position: absolute;
+  top: 6px;
+  right: 10px;
+}
+
+.item-list [class$="bottom"] {
+  width: 94px;
+  height: 33px;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.return-btu_bottom {
+  float: right;
+  margin: 20px 27px 11px 12px;
+}
+
+.insert-money::placeholder {
+  color: #bdbdbd;
+  padding-left: 6px;
+}
+
+.insert-money {
+  margin: 12px 0 12px 27px;
+}
+
+.insert-btu_bottom {
+  float: right;
+  margin: 11px 27px 12px 8px;
+}
+
+.form-add_items {
+  float: left;
+  margin: 11px 0px 28px 27px;
+  width: 200px;
+  height: 106px;
+  background-color: #eae8fe;
+  border: 1px solid #bdbdbd;
+  box-sizing: border-box;
+  border-radius: 5px;
+  overflow-y: scroll;
+}
+
+.form-add_items::-webkit-scrollbar {
+  background-color: #fff;
+  border-radius: 50px;
+  width: 4px;
+  height: 4px;
+}
+
+.form-add_items-wrap {
+  width: 170px;
+  height: 46px;
+  background: #ffffff;
+  border-radius: 5px;
+  margin: 6px 18px 6px 12px;
+}
+
+.form-add_items-wrap:first-child {
+  margin: 12px 18px 6px 12px;
+}
+
+.form-add_items-wrap_img {
+  float: left;
+  width: 18px;
+  height: 33px;
+  padding: 6px 0 7px 10px;
+}
+
+.form-add_items-text {
+  float: left;
+  font-size: 9px;
+  padding: 15px 0px 15px 10px;
+}
+
+.form-add_items-number {
+  float: right;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #bdbdbd;
+  margin: 8px 8px 8px 0;
+}
+
+.get-btu {
+  margin: 12px 27px 28px 0px;
+  float: right;
+  width: 94px;
+  height: 106px;
+  font-weight: 700;
+  font-size: 13px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  background: #6327fe;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
 }
