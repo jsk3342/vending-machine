@@ -12,7 +12,8 @@ div,
 header,
 ul,
 li,
-img {
+img,
+h2 {
   margin: 0;
   padding: 0;
 }
@@ -40,7 +41,6 @@ ul {
 
 .wrapper-inner {
   width: 360px;
-  background-color: wheat;
 }
 
 .left-box {
@@ -261,4 +261,119 @@ ul {
   border: none;
   background: #6327fe;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* right box */
+
+.my-money {
+  width: 360px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.my-money-status {
+  padding: 4px 30px 4px 0px;
+  background: #eae8fe;
+  margin: 9px 27px;
+  text-align: right;
+  border-radius: 5px;
+  position: relative;
+  font-weight: bold;
+}
+
+.my-money-status::before {
+  display: inline;
+  content: "소지금 : ";
+  position: absolute;
+  top: 4px;
+  left: 10px;
+}
+.my-money-status::after {
+  display: inline;
+  content: " 원";
+  position: absolute;
+  top: 4px;
+  right: 10px;
+}
+
+.get-items {
+  background-color: #fff;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.get-items .get-items_title {
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 14px;
+  padding: 25px 0 13px 0;
+}
+
+.form-get-items {
+  width: 306px;
+  height: 364px;
+  margin: 0 auto;
+  background-color: #eae8fe;
+  overflow-y: scroll;
+  border-radius: 5px;
+  border: 1px solid #bdbdbd;
+}
+
+.form-get-items::-webkit-scrollbar {
+  background-color: #fff;
+  border-radius: 50px;
+  width: 4px;
+  height: 4px;
+}
+
+.form-get-items-wrap {
+  height: 46px;
+  width: 276px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 6px 18px 6px 12px;
+}
+
+.form-get-items-wrap:first-child {
+  margin: 12px 18px 0px 12px;
+}
+
+.form-get_items-wrap_img {
+  height: 33px;
+  width: 18px;
+  float: left;
+  margin: 6px 0px 7px 10px;
+}
+
+.form-get_items-text {
+  font-size: 9px;
+  float: left;
+  padding: 15px 0px 15px 10px;
+}
+
+.form-get_items-number {
+  float: right;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #bdbdbd;
+  margin: 8px 8px 8px 0;
+}
+
+.price-text {
+  text-align: right;
+  margin: 6px 38px auto auto;
+  font-size: 12px;
+  position: relative;
+  padding-bottom: 57px;
+}
+
+.price-text::after {
+  display: inline;
+  content: " 원";
+  position: absolute;
+  top: 0;
+  right: -13px;
 }
