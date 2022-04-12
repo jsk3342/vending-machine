@@ -1,0 +1,123 @@
+/* Setting */
+
+* {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+body {
+  background-color: #eae8fe;
+}
+
+div,
+header,
+ul,
+li,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+/* layout */
+
+.title-logo {
+  width: 386px;
+  height: 164.12px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.wrapper {
+  width: 748px;
+  height: 545px;
+  margin: 247px auto 0px;
+}
+
+.wrapper-inner {
+  width: 360px;
+  background-color: wheat;
+}
+
+.left-box {
+  float: left;
+  background-color: white;
+}
+
+.right-box {
+  float: right;
+}
+
+/* design */
+
+.item-list-ul {
+  list-style: none;
+}
+
+.item-list-detail {
+  width: 94px;
+  height: 130px;
+  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.5));
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* 콜라 정렬 */
+
+.item-list-ul .item-list-detail {
+  float: left;
+  border: 3px solid #6327fe;
+}
+
+.item-list-ul .item-list-detail:first-child {
+  margin: 29px 6px 6px 24px;
+}
+
+.item-list-ul .item-list-detail:nth-child(2) {
+  margin-top: 29px;
+}
+
+.item-list-ul .item-list-detail:nth-child(3) {
+  margin: 29px 24px 6px 6px;
+}
+
+.item-list-ul .item-list-detail:nth-child(4) {
+  margin-left: 24px;
+}
+
+.item-list-ul .item-list-detail:nth-child(5) {
+  margin: 0 6px;
+}
+
+.item-list-ul .item-list-detail:last-child {
+  margin-right: 24px;
+}
+
+/* 콜라 내부 정렬 */
+
+.item-list-detail_img {
+  height: 65px;
+  width: 36px;
+  padding-top: 11px;
+}
+
+.item-list-detail_name {
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 10px;
+  text-align: center;
+  margin: 0;
+}
+
+.item-list-detail_btu {
+  width: 70px;
+  height: 22px;
+  color: #ffffff;
+  background: #6327fe;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  border: none;
+  margin-top: 7px;
+}
