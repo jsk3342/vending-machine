@@ -1,0 +1,18 @@
+.title-logo {
+    width: 166px;
+    height: 72px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.wrapper {
+    width: 360px;
+    margin: 120px auto 0px;
+}
+
+.get-items {
+    margin: 0;
+}
+
