@@ -4,9 +4,7 @@
 
 https://jsk3342.github.io/vending-machine/
 
-![vending](https://user-images.githubusercontent.com/85912592/163736937-48405d92-893e-40d9-9120-10fea04b0f0e.PNG)
-
-![vending-mobile](https://user-images.githubusercontent.com/85912592/163736944-b4de176a-0e48-467e-bf99-6767bb910ab9.PNG)
+![vending](https://user-images.githubusercontent.com/85912592/163004921-3c56b56d-0d42-45ee-bd7a-38eb48dca6d3.PNG)
 
 ## 목표
 
@@ -22,8 +20,11 @@ float를 이용하여 구성
 
 span 태그를 이용하여 구현 하였으며, 인라인 요소로 패딩으로 조절 하였습니다.
 
+### 3. 인풋 값 변수로 사용
+
 ## 배운점
 
 ### border-box
 
 마진, 패딩값을 주면서 레이아웃이 조금씩 엇나갔는데 border-box 이용하여 사이즈 조절하였습니다.
+
