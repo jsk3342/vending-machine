@@ -1,5 +1,4 @@
 /* Setting */
-
 * {
   font-family: "Noto Sans KR", sans-serif;
 }
@@ -8,12 +7,7 @@ body {
   background-color: #eae8fe;
 }
 
-div,
-header,
-ul,
-li,
-img,
-h2 {
+div, header, ul, li, img, h2 {
   margin: 0;
   padding: 0;
 }
@@ -24,6 +18,7 @@ ul {
 
 /* layout */
 
+/* design */
 .title-logo {
   width: 386px;
   height: 164.12px;
@@ -51,8 +46,6 @@ ul {
 .right-box {
   float: right;
 }
-
-/* design */
 
 .item-list-detail {
   width: 94px;
