@@ -148,3 +148,21 @@ button {
 .shopping-info p {
   border: 1px solid black;
 }
+
+.balance {
+  padding: 6px 10px 7px;
+  text-align: left;
+}
+
+.balance::before {
+  content: "잔액";
+  float: left;
+}
+
+.balance::after {
+  content: ' 원';
+}
+
+.text-right {
+  text-align: right;
+}
