@@ -7,7 +7,7 @@ body {
   background-color: #eae8fe;
 }
 
-body, h1, h2, p, ul  {
+body, h1, h2, p, ul, input  {
   margin: 0;
   padding: 0;
 }
@@ -19,6 +19,10 @@ h1, h2, h3 {
 
 li {
   list-style-type: none;
+}
+
+input {
+  border: none;
 }
 
 button {
@@ -145,13 +149,10 @@ button {
   gap: 12px;
 }
 
-.shopping-info p {
-  border: 1px solid black;
-}
-
 .balance {
   padding: 6px 10px 7px;
-  text-align: left;
+  background-color: #eae8fe;
+  border-radius: 5px;
 }
 
 .balance::before {
@@ -165,4 +166,76 @@ button {
 
 .text-right {
   text-align: right;
+}
+
+.shopping-btn {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.shadow {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.show-money {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 7px 0 8px 6px;
+  box-sizing: border-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+}
+
+.cola-grid {
+  height: 106px;
+  padding: 12px 18px 12px 12px;
+  box-sizing: border-box;
+  border: 1px solid #BDBDBD;
+  background-color: #eae8fe;
+  border-radius: 5px;
+  overflow-y: scroll;
+}
+
+.cola-grid li + li {
+  margin-top: 6px;
+}
+
+.cola-grid-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 8px 7px 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.cola-grid-items img {
+  width: 18px;
+}
+
+.cola-grid-items .title {
+  font-size: 9px;
+}
+
+.cola-grid-items .count {
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  box-sizing: border-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+}
+
+.get-btu {
+  font-size: 13px;
+  font-weight: 700;
+  color: white;
+  border-radius: 5px;
+  background-color: #6327fe;
 }
