@@ -95,13 +95,6 @@ button {
   background-color: inherit;
 }
 
-
-.info article + article {
-  margin-top: 20px;
-}
-
-
-
 /* vending-machine */
 .menu {
   margin-bottom: 20px;
@@ -238,4 +231,64 @@ button {
   color: white;
   border-radius: 5px;
   background-color: #6327fe;
+}
+
+/* right side */
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.right-wrap {
+  max-width: 306px;
+  margin: 0 auto;
+}
+
+.money {
+  padding: 9px 27px;
+}
+
+.mylist {
+  flex-grow: 1;
+  padding: 30px 35px 28px;
+}
+
+.money .cash {
+  padding: 6px 10px;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #eae8fe;
+}
+
+.money .cash::before {
+  content: "소지금 :";
+  float: left;
+}
+
+.money .cash::after {
+  content: ' 원';
+}
+
+.mylist-title {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+
+.cola-grid.right {
+  height: 364px;
+}
+
+.total-money {
+  margin-top: 6px;
+}
+
+.total-money::before {
+  content: "총금액 : ";
+}
+
+.total-money::after {
+  content: ' 원';
 }
